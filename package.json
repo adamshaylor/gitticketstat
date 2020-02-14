@@ -1,0 +1,37 @@
+{
+  "name": "gitticketstat",
+  "version": "1.0.0",
+  "description": "A script to aggregate diff statistics based on git commit logs matching a ticket pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamshaylor/gitticketstat.git"
+  },
+  "keywords": [
+    "git",
+    "log",
+    "statistics",
+    "ticket",
+    "jira"
+  ],
+  "author": "Adam Shaylor <business@adamshaylor.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamshaylor/gitticketstat/issues"
+  },
+  "homepage": "https://github.com/adamshaylor/gitticketstat#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "minimist": "^1.2.0",
+    "parse-git-numstat": "^1.1.2"
+  }
+}
