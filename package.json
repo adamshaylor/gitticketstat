@@ -1,6 +1,6 @@
 {
   "name": "gitticketstat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A script to aggregate diff statistics based on git commit logs matching a ticket pattern",
   "bin": "index.js",
   "scripts": {
