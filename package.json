@@ -2,7 +2,7 @@
   "name": "gitticketstat",
   "version": "1.0.0",
   "description": "A script to aggregate diff statistics based on git commit logs matching a ticket pattern",
-  "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
